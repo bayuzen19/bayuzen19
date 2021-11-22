@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @bayuzen19
 - 👀 I’m interested in Data Analytics, Data Science and Machine Learning
 - 🌱 I’m currently learning Data Science
-- 💞️ I’m looking to collaborate on Data Analytics and Data Scince
+- 💞️ I’m looking for work on Data Analytics and Data Scince field
 - 📫 How to reach me bayuzen19@gmail.com
 
 <!---

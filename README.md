@@ -11,6 +11,10 @@
 - 🌱 I'm passionate about exploring new technologies and their applications in Data Science.
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/bayuzenahmad/)
 
+### Mission
+
+I have a mission to provide an materials learning end-to-end learning path for Data Science, Machine Learning, and Generative AI.
+
 ### Skills
 
 - **Python**: Advanced

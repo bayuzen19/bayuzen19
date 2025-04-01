@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bayuzen Ahmad - Data Scientist & AI Engineer</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #4CAF50;
+      --secondary-color: #333;
+      --accent-color: #2ecc71;
+      --light-bg: #f4f4f4;
+      --light-text: #fff;
+      --font-family: 'Montserrat', sans-serif;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: var(--font-family);
+      background: var(--light-bg);
+      color: var(--secondary-color);
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+      color: var(--light-text);
+      padding: 2rem 1rem;
+      text-align: center;
+      position: relative;
+    }
+    .hero-container {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid var(--light-text);
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    nav {
+      background: var(--secondary-color);
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0.5rem;
+    }
+    nav ul li {
+      margin: 0 0.7rem;
+    }
+    nav ul li a {
+      color: var(--light-text);
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav ul li a:hover {
+      background: var(--primary-color);
+    }
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background: #fff;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      font-size: 2rem;
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--primary-color);
+      display: inline-block;
+      margin-bottom: 1rem;
+      padding-bottom: 0.3rem;
+    }
+    /* Accordion styles for detailed experience */
+    .accordion-item {
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #ddd;
+    }
+    .accordion {
+      background-color: #eee;
+      color: var(--secondary-color);
+      cursor: pointer;
+      padding: 1rem;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: background 0.3s;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+    .accordion:hover,
+    .accordion.active {
+      background-color: var(--primary-color);
+      color: var(--light-text);
+    }
+    .panel {
+      padding: 0 1rem 1rem 1rem;
+      display: none;
+      overflow: hidden;
+    }
+    .panel ul {
+      list-style: disc;
+      margin-left: 1.5rem;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero-container {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav ul {
+        flex-direction: column;
+      }
+      nav ul li {
+        margin: 0.5rem 0;
+      }
+    }
+    footer {
+      background: var(--secondary-color);
+      color: var(--light-text);
+      text-align: center;
+      padding: 1rem;
+    }
+    footer a {
+      color: var(--primary-color);
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header / Hero Section -->
+  <header>
+    <div class="hero-container">
+      <img src="88529383.jpeg" alt="Bayuzen Ahmad Photo" class="profile-photo">
+      <h1>Bayuzen Ahmad</h1>
+      <p>Data Scientist | Machine Learning Engineer | AI Engineer</p>
+      <p>
+        <a href="mailto:bayuzen19@gmail.com" style="color: var(--light-text);">bayuzen19@gmail.com</a> • 
+        <a href="tel:085254172133" style="color: var(--light-text);">0852 5417 2133</a>
+      </p>
+      <p>
+        <a href="https://github.com/bayuzen19" target="_blank" style="color: var(--light-text);">GitHub</a> • 
+        <a href="https://www.linkedin.com/in/bayuzenahmad/" target="_blank" style="color: var(--light-text);">LinkedIn</a>
+      </p>
+    </div>
+  </header>
+  
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#experience">Work Experience</a></li>
+      <li><a href="#mentoring">Mentoring</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated Data Scientist, Machine Learning Engineer, and AI Engineer with over 4 years of hands-on experience in data analysis, engineering, and advanced machine learning. I have successfully designed and implemented end-to-end solutions in various domains such as regression, classification, segmentation, forecasting, computer vision, natural language processing, and recommendation systems. I excel at managing cross-functional projects and mentoring teams to achieve data-driven excellence.
+      </p>
+    </section>
+    
+    <!-- Work Experience Section -->
+    <section id="experience">
+      <h2>Work Experience</h2>
+      
+      <!-- METRODATA -->
+      <div class="accordion-item">
+        <button class="accordion">METRODATA (Nov 2024 – Present) - Data & AI</button>
+        <div class="panel">
+          <ul>
+            <li>Developed and implemented an end-to-end pipeline integrating OpenAI, OCR, and Cosmos DB to meet specific customer business requirements.</li>
+            <li>Delivered comprehensive training programs on Power BI and Microsoft Fabric, enabling customers to leverage advanced data analytics and business intelligence.</li>
+            <li>Architected and implemented Azure Cognitive Services (Document Intelligence) for automated invoice text extraction, reducing manual data entry.</li>
+            <li>Integrated LangChain and Azure OpenAI to create custom chatbot solutions that enhance customer service capabilities using natural language processing.</li>
+            <li>Designed and implemented Azure AI Search pipelines for RAG (Retrieval-Augmented Generation) chatbots, providing context-aware responses and improved information retrieval.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- ISMAYA GROUP -->
+      <div class="accordion-item">
+        <button class="accordion">ISMAYA GROUP (Freelance) (Mar 2023 – Feb 2025) - Business Intelligence</button>
+        <div class="panel">
+          <ul>
+            <li>Developed an end-to-end web scraping solution using Selenium to extract data from Google Maps, including user details, ratings, and reviews.</li>
+            <li>Designed a data storage pipeline on Google Cloud Platform and created a customer review dashboard for two Ismaya concepts (restaurant and lifestyle) and one subsidiary (Legit Group).</li>
+            <li>Implemented an OCR pipeline using Microsoft's Phi-3 model to extract text from images and PDFs.</li>
+            <li>Detected transaction anomalies using the Isolation Forest algorithm by analyzing transaction patterns, total frequency, coin amounts, and name variations.</li>
+            <li>Segmented customers using the RFM (Recency, Frequency, Monetary) method, leading to a 2.4x increase in retention and a 1.2x improvement in Average Order Value (AOV).</li>
+            <li>Developed a machine learning model to predict customer purchase likelihood for the upcoming month and identified key influencing factors.</li>
+            <li>Handled a product recommendation system based on customer segmentation and time categories to deliver tailored recommendations.</li>
+            <li>Scraped data from the Grab Food platform using Beautiful Soup and Selenium for pricing analytics.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- ALTHA CONSULTING -->
+      <div class="accordion-item">
+        <button class="accordion">ALTHA CONSULTING (Project Based) (Nov 2024 – Feb 2025) - AI Engineer</button>
+        <div class="panel">
+          <ul>
+            <li>Developed an advanced chatbot capable of interacting with PDF documents by leveraging the Vertex AI Gemini Pro model integrated with LangChain, using a Retrieval-Augmented Generation (RAG) approach for contextual responses.</li>
+            <li>Created an SQL agent application using Streamlit for advanced data analysis and visualization of port-related datasets stored in an SQLite database, integrating NLP, semantic search, and machine learning to convert natural language queries into SQL.</li>
+            <li>Built an asynchronous PDF extraction and validation microservice using Python, FastAPI, and Vertex AI generative models, utilizing PDFPlumber and Tesseract OCR for both text and scanned content.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- FARMBYTE -->
+      <div class="accordion-item">
+        <button class="accordion">FARMBYTE (Freelance) (Aug 2024 – Jan 2025) - Machine Learning Engineer</button>
+        <div class="panel">
+          <ul>
+            <li>Performed web scraping on the DOSM (Department of Statistics Malaysia) website to collect agronomic price data.</li>
+            <li>Developed a dashboard for credit scoring monitoring using Tableau to visualize trends and identify risk patterns.</li>
+            <li>Created a forecasting model using multiple frameworks, achieving an RMSE between 0.1 and 1.2 with an average accuracy of 94.8% for vegetable price predictions.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Semudahitu.id -->
+      <div class="accordion-item">
+        <button class="accordion">Semudahitu.id (Project Based) (Sep 2024 – Nov 2024) - AI Engineer</button>
+        <div class="panel">
+          <ul>
+            <li>Implemented an AI-driven “Business Mentor” microservice for UMKM using Python and FastAPI, offering advanced data analytics and strategic guidance via Azure OpenAI GPT models.</li>
+            <li>Supported multiple analysis modes ranging from data insights to comprehensive recommendations and implementation roadmaps through dynamic prompt templates and LangChain integration.</li>
+            <li>Ensured robust data validation and error handling, with a modular and scalable architecture to support varying workloads.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- INSIGNIA -->
+      <div class="accordion-item">
+        <button class="accordion">INSIGNIA (Freelance) (Apr 2024 – Jul 2024) - Machine Learning Engineer</button>
+        <div class="panel">
+          <ul>
+            <li>Developed an end-to-end image generation pipeline integrating Stable Diffusion, ComfyUI, and OpenAPI to produce high-quality images and engaging product descriptions.</li>
+            <li>Utilized Stable Diffusion for realistic image synthesis and ComfyUI for a user-friendly interface, while OpenAPI ensured seamless component communication.</li>
+            <li>Deployed the solution on Askdea.ai to empower SMEs with visually appealing digital marketing content and SEO-friendly descriptions.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- ASTRA ISUZU MOTOR INDONESIA -->
+      <div class="accordion-item">
+        <button class="accordion">ASTRA ISUZU MOTOR INDONESIA (Project Based) (Nov 2023 – Apr 2024) - Data Scientist</button>
+        <div class="panel">
+          <ul>
+            <li>Developed a time series model to predict monthly demand for over 21,000 materials with an accuracy exceeding 90% using an automated model selection process.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- PT SHARING VISION INDONESIA -->
+      <div class="accordion-item">
+        <button class="accordion">PT SHARING VISION INDONESIA (Mar 2022 – Nov 2023) - Data Scientist</button>
+        <div class="panel">
+          <ul>
+            <li>Developed comprehensive dashboards for monitoring merchant performance (BRI and non-BRI) across Indonesia using Tableau and Looker Data Studio.</li>
+            <li>Created a credit scoring dashboard to visualize trends, risk patterns, and provide actionable insights.</li>
+            <li>Built an end-to-end automated machine learning pipeline with PySpark for classification tasks, covering data preprocessing, model training, and performance monitoring.</li>
+            <li>Identified non-BRI customers receiving significant transfers from BRI clients using RFM analysis and clustering to design effective acquisition campaigns.</li>
+            <li>Collaborated with PT Bank Rakyat Indonesia in the Digital Banking Division to support merchant acquisition through vintage and cohort analysis, feature selection, and predictive modeling.</li>
+            <li>Utilized Beautiful Soup and Selenium for web scraping and analyzed customer savings patterns based on transaction frequency and geographical data.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- SUPERAPP -->
+      <div class="accordion-item">
+        <button class="accordion">SUPERAPP (Jan 2022 – Feb 2022) - Business Intelligence Analyst</button>
+        <div class="panel">
+          <ul>
+            <li>Developed and managed business intelligence solutions to improve business processes.</li>
+            <li>Provided reports via office applications to support decision making.</li>
+            <li>Analyzed business requirements and processes, generating recommendations for improvement.</li>
+            <li>Created and maintained documentation including design, requirements, and user manuals.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- TSINGSHANG HOLDING GROUP -->
+      <div class="accordion-item">
+        <button class="accordion">TSINGSHANG HOLDING GROUP (Jan 2020 – Aug 2021) - Engineering & Analyst</button>
+        <div class="panel">
+          <ul>
+            <li>Supervised the final results of the AOD (Argon Oxygen Decarburization) process and performed material checks.</li>
+            <li>Evaluated chemical content and analyzed deviations from internal standards.</li>
+            <li>Applied statistical methods, Minitab, and engineering analysis to ensure process quality.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Mentoring Experience Section -->
+    <section id="mentoring">
+      <h2>Mentoring Experience</h2>
+      
+      <div class="accordion-item">
+        <button class="accordion">AI INDONESIA (Jan 2024 – Present) - Machine Learning Mentor</button>
+        <div class="panel">
+          <ul>
+            <li>Developed training materials and taught supervised and unsupervised machine learning concepts.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <button class="accordion">DIBIMBING.ID (Mar 2023 – Present) - Data Science Mentor</button>
+        <div class="panel">
+          <ul>
+            <li>Guided over 30 aspiring data scientists in mastering Python fundamentals and data analysis techniques.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <button class="accordion">PT SINAR TEKNOLOGI BANGSA (Bangalore) (Aug 2022 – Jun 2023) - Data Science Lecturer</button>
+        <div class="panel">
+          <ul>
+            <li>Taught Python for Data Science concepts, including lists, dictionaries, data wrangling, and numpy, to classes of over 10 students.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <button class="accordion">NARASIO DATA (Aug 2022 – Nov 2022) - Data Science Mentor</button>
+        <div class="panel">
+          <ul>
+            <li>Mentored small groups of over 5 students on data preparation, statistics, data transformation, and implementing machine learning models (classification and clustering).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Marketing Campaign Optimization:</strong> <a href="https://github.com/bayuzen19/marketing-Campaign" target="_blank">View Portfolio</a></li>
+        <li><strong>Customer Segmentation:</strong> <a href="https://github.com/bayuzen19/Clustering-Customer-Segmentation" target="_blank">View Portfolio</a></li>
+        <li><strong>Laptop Price Prediction:</strong> <a href="https://github.com/bayuzen19/Laptop-Price-Prediction" target="_blank">View Portfolio</a></li>
+        <li><strong>Dashboard Churn Analytics:</strong> <a href="https://lookerstudio.google.com/reporting/75597e14-c10e-46db-93f9-13ddab1e2237" target="_blank">View Dashboard</a></li>
+      </ul>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>
+        <strong>Technical:</strong> Mathematical Modeling, Classification, Regression, Clustering, Data Analysis & Visualization, CRISP-DM, High Dimensional Reduction, Feature Engineering & Selection, Machine Learning Optimization.<br>
+        <strong>Software & Tools:</strong> Python, R, PySpark, SQL, Power BI, Tableau, Excel, Looker Data Studio, and cloud platforms (Google Cloud, AWS, Azure).<br>
+        <strong>Interpersonal:</strong> Teamwork, Leadership, Project Management, Problem Solving, Communication.
+      </p>
+    </section>
+    
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <p>
+        <strong>Sepuluh NopeMber Institute of Technology</strong><br>
+        Bachelor of Material Engineering (Aug 2015 - Sept 2019) | GPA: 3.58/4.00
+      </p>
+    </section>
+    
+    <!-- Certificates Section -->
+    <section id="certificates">
+      <h2>Certificates & Training</h2>
+      <ul>
+        <li><strong>Certified Associate Data Scientist</strong> - BNSP Indonesia (Nov 2021)</li>
+        <li><strong>Full Stack Data Science</strong> - iNeuron (Dec 2022 – Present) & PT. Epam Digital Mandiri (Feb 2024 – Mar 2024)</li>
+        <li><strong>Artificial Engineering: Computer Vision</strong> - AI Indonesia (Sep 2023 – Feb 2024)</li>
+        <li><strong>Data Engineering</strong> - Dibimbing.id (Mar 2023 – Jul 2023)</li>
+        <li><strong>Business Intelligence Specialist</strong> - Dibimbing.id (May 2022 – Aug 2022)</li>
+        <li><strong>Full Stack Data Science Boot Camp</strong> - FullStack Data Bangalore Indonesia (Oct 2021 – Apr 2022)</li>
+        <li><strong>Business Intelligence Analyst</strong> - Binar Academy (Dec 2021 – Feb 2022)</li>
+        <li><strong>Full Stack Data Science Bootcamp</strong> - Dibimbing.id (Aug 2021 – Dec 2021)</li>
+        <li><strong>Azure AI Engineer (AI-102)</strong> - <a href="https://learn.microsoft.com/en-us/users/bayuzenahmad-0393/credentials/certification/azure-ai-engineer?tab=credentials-tab" target="_blank">View Credential</a></li>
+        <li><strong>Azure Fundamentals</strong> - <a href="https://learn.microsoft.com/en-us/users/bayuzenahmad-6315/credentials/73558598eb995687?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank">View Credential</a></li>
+      </ul>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Bayuzen Ahmad. All rights reserved.</p>
+    <p>
+      <a href="mailto:bayuzen19@gmail.com">bayuzen19@gmail.com</a> • 
+      <a href="https://github.com/bayuzen19" target="_blank">GitHub</a> • 
+      <a href="https://www.linkedin.com/in/bayuzenahmad/" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+  
+  <!-- JavaScript for Accordion Functionality -->
+  <script>
+    const accordions = document.getElementsByClassName("accordion");
+    for (let i = 0; i < accordions.length; i++) {
+      accordions[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        const panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+</html>

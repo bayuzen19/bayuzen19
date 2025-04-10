@@ -1,5 +1,5 @@
 <div align="center">
-  
+
 # 👨‍💻 Bayuzen Ahmad
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Data+Scientist;Machine+Learning+Engineer;AI+Enthusiast)](https://git.io/typing-svg)
@@ -7,8 +7,10 @@
 ### 🚀 Passionate Data Scientist and Machine Learning Engineer from Indonesia
 
 <p>
-  <a href="https://www.linkedin.com/in/bayuzenahmad/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=bayuzen19&label=Profile%20views&color=0e75b6&style=flat" alt="profile-views"/>
+  <a href="https://www.linkedin.com/in/bayuzenahmad/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=bayuzen19&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views"/>
 </p>
 
 <img src="https://assets-global.website-files.com/5c19100c2b50073e6ee69da1/60d35967a853a1b14851703b_All%20the%20data%20(1).gif" width="400px"/>
@@ -17,12 +19,12 @@
 
 ## 🎯 About Me
 
-I'm a dedicated Data Scientist and Machine Learning Engineer with a passion for solving complex problems using data-driven approaches. Currently focused on:
+I'm a seasoned Data Scientist and Machine Learning Engineer dedicated to solving complex challenges with data-driven solutions and elegant code. With extensive experience in both startup and enterprise settings, my work is centered around:
 
-- 🔭 Working on cutting-edge Machine Learning projects and Generative AI
-- 🌱 Continuously learning and exploring new technologies in Data Science
-- 📚 Creating comprehensive learning materials for Data Science, ML, and Gen AI
-- 🤝 Building an end-to-end learning path for aspiring data professionals
+- 🔭 Developing and deploying cutting-edge machine learning models, including innovative work in Generative AI
+- 🌱 Staying ahead of industry trends through continuous learning and experimentation in data science and software engineering
+- 📚 Creating robust learning materials and open-source projects that empower aspiring data professionals
+- 🤝 Collaborating on diverse projects that bridge the gap between data, technology, and business insights
 
 ## 🛠️ Technical Skills
 
@@ -30,21 +32,21 @@ I'm a dedicated Data Scientist and Machine Learning Engineer with a passion for 
 class DataScientist:
     def __init__(self):
         self.languages = {
-            "Python": "Advanced",
-            "JavaScript": "Intermediate",
+            "Python": "Expert",
+            "JavaScript": "Advanced",
             "Golang": "Intermediate",
-            "SQL": "Advanced"
+            "SQL": "Expert"
         }
         self.bi_tools = {
-            "Tableau": "Advanced",
-            "Power BI": "Advanced",
-            "Excel": "Advanced"
+            "Tableau": "Expert",
+            "Power BI": "Expert",
+            "Excel": "Expert"
         }
         self.big_data = {
-            "Spark": "Advanced",
-            "Hadoop": "Advanced",
-            "Hive": "Advanced",
-            "Impala": "Advanced"
+            "Spark": "Expert",
+            "Hadoop": "Expert",
+            "Hive": "Expert",
+            "Impala": "Expert"
         }
         self.frameworks = ["TensorFlow", "PyTorch", "scikit-learn", "React"]
 ```
@@ -57,6 +59,7 @@ class DataScientist:
 </div>
 
 ## 🏆 GitHub Trophies
+
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=bayuzen19&theme=radical&row=1&column=6"/>
 </div>

@@ -69,27 +69,27 @@ Azure OpenAI, Azure AI Search, Docker, AWS, GCP, GitHub Actions
 ### 1. AI / RAG Application
 **Short description:** Enterprise-style chatbot or document intelligence system using LLMs, retrieval, and API deployment.  
 **Highlights:** ingestion pipeline, chunking, embeddings, retrieval, citations, FastAPI deployment.  
-**Repo:** `[Add repository link here]`
+
 
 ### 2. MLOps / Production ML Project
 **Short description:** End-to-end ML system with training, evaluation, API serving, Docker, and monitoring.  
 **Highlights:** experiment tracking, deployment pipeline, reproducibility, model lifecycle.  
-**Repo:** `[Add repository link here]`
+
 
 ### 3. Forecasting / Data Science Project
 **Short description:** Forecasting project for demand, pricing, or operational planning.  
 **Highlights:** feature engineering, model comparison, business impact, visualization.  
-**Repo:** `[Add repository link here]`
+
 
 ### 4. Analytics / BI Showcase
 **Short description:** Dashboard or analytics solution built for monitoring KPIs and business performance.  
 **Highlights:** data modeling, KPI design, storytelling, actionable insights.  
-**Repo:** `[Add repository link here]`
+
 
 ### 5. Fullstack Data / AI App
 **Short description:** Fullstack application combining frontend, backend, and machine learning or analytics.  
 **Highlights:** UI/UX, API integration, data workflow, deployment.  
-**Repo:** `[Add repository link here]`
+
 
 ---
 
